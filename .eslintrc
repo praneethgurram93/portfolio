@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "plugins": ["babel", "prettier"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "max-len": 0,
+    "prefer-const": 1,
+    "react/prefer-es6-class": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "jsx-a11y/label-has-for": 0,
+    "lines-between-class-members": 0,
+    "react/prop-types": 0,
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": "off",
+    "no-nested-ternary": "off",
+    "react/jsx-wrap-multilines": "off"
+  }
+}
